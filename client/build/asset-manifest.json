@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.738b37e9.css",
+    "main.js": "/static/js/main.10878567.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/service-station.png": "/static/media/service-station.17402dc8f65b14be2f5b.png",
+    "static/media/about-background.png": "/static/media/about-background.fe9955167f341e9d3d5c.png",
+    "static/media/franchise-background.png": "/static/media/franchise-background.e03af6fa6a476b576a59.png",
+    "static/media/service-choice-background.png": "/static/media/service-choice-background.1f9786bc02960e823906.png",
+    "static/media/service-choice-mob-background.png": "/static/media/service-choice-mob-background.d796156aaaa4cd2a3a70.png",
+    "static/media/mission-background.png": "/static/media/mission-background.152c02f3452b3df6484d.png",
+    "static/media/work-stages-background.png": "/static/media/work-stages-background.d3222a39cdf404337b8f.png",
+    "static/media/action-image.png": "/static/media/action-image.762030633293e995c9f7.png",
+    "static/media/Circe-Regular.ttf": "/static/media/Circe-Regular.814e4dd4329ffdb6c9ed.ttf",
+    "static/media/Circe-Bold.ttf": "/static/media/Circe-Bold.63396ee791f60623acbf.ttf",
+    "static/media/auto-services.png": "/static/media/auto-services.3c1560f4a539bb512ba3.png",
+    "static/media/Circe-ExtraBold.ttf": "/static/media/Circe-ExtraBold.87e2d898df4f6a61b4b8.ttf",
+    "static/media/quolity-work.png": "/static/media/quolity-work.9ac33862e0d5087f9470.png",
+    "static/media/action-question.png": "/static/media/action-question.2b6c8642d56db25c7e7d.png",
+    "static/media/staff.png": "/static/media/staff.b9cb930cdcfb54d590a2.png",
+    "static/media/sertificate.png": "/static/media/sertificate.52f8bc50440bf58ffabb.png",
+    "static/media/discs.png": "/static/media/discs.3e479bb7122b12db3d35.png",
+    "static/media/rolf.png": "/static/media/rolf.c932b2914e058a504ad5.png",
+    "static/media/search.svg": "/static/media/search.d96df6944fa66cdd4d88.svg",
+    "index.html": "/index.html",
+    "static/media/marker-point.svg": "/static/media/marker-point.909a8babdc6d8118d09428f8aac177f4.svg",
+    "main.738b37e9.css.map": "/static/css/main.738b37e9.css.map",
+    "main.10878567.js.map": "/static/js/main.10878567.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.738b37e9.css",
+    "static/js/main.10878567.js"
+  ]
+}

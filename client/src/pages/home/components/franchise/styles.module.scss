@@ -1,0 +1,114 @@
+.wrap {
+  position: relative;
+  &::before {
+    content: "";
+    background: #f4f4f4;
+    width: 45%;
+    border-radius: 0 50% 50% 0;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    height: 600px;
+    z-index: -1;
+  }
+}
+
+.franchise {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 170px;
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #3f3f3f;
+
+    span {
+      font-weight: 800;
+      display: block;
+    }
+  }
+
+  &__img {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    &::before {
+      content: url(../../../../assets/images/franchise-background.png);
+    }
+  }
+
+  &__wrap {
+    width: 50%;
+  }
+}
+
+.franchiseItem__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 55px;
+}
+
+.franchiseItem {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  &__info {
+    color: #0e4194;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    span {
+      font-weight: 700;
+      font-size: 88px;
+      line-height: 130px;
+      margin-right: 20px;
+    }
+  }
+  &__description {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 1375px) {
+  .franchiseItem {
+    &__info {
+      span {
+        font-size: 65px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .franchiseItem {
+    &__info {
+      span {
+        font-size: 48px;
+        line-height: 71px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrap {
+    display: none;
+  }
+}

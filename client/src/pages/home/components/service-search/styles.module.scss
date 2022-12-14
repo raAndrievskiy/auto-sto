@@ -1,0 +1,108 @@
+.serviceSearch_wrap {
+  margin: 205px 0 135px;
+  padding: 45px 0;
+  background: #f8f8f8;
+  height: 100%;
+  position: relative;
+  .autoServicesImg {
+    position: absolute;
+    height: 400px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .serviceSearch {
+    width: 100%;
+    max-width: 939px;
+
+    &__title {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 44px;
+      line-height: 45px;
+      color: #2998ff;
+    }
+
+    &__description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 28px;
+      margin: 15px 0 30px;
+      display: block;
+    }
+
+    &__input {
+      max-width: 939px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 13px;
+    }
+
+    &__text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #4a4a4a;
+    }
+  }
+}
+
+.btn {
+  height: 56px;
+  width: 263px;
+  background: #2998ff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+  &:hover {
+    background: #0e4194;
+  }
+}
+
+.btn span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1450px) {
+  .serviceSearch_wrap {
+    .autoServicesImg {
+      height: 350px;
+    }
+  }
+}
+@media screen and (max-width: 1400px) {
+  .serviceSearch_wrap {
+    .autoServicesImg {
+      height: 280px;
+    }
+    .serviceSearch {
+      &__description {
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .serviceSearch_wrap {
+    .autoServicesImg {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .serviceSearch_wrap {
+    display: none;
+  }
+}

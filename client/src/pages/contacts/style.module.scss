@@ -1,0 +1,50 @@
+.wrapMap {
+  position: relative;
+}
+
+.wrapCard {
+  position: absolute;
+  left: 14px;
+  top: 15px;
+  z-index: 100;
+}
+
+.card {
+  width: 588px;
+  height: 777px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 31px;
+  display: flex;
+  flex-direction: column;
+
+  &__address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2998FF;
+    padding: 26px 0;
+  }
+
+  &__inner {
+    flex-grow: 1;
+  }
+
+  &__box {
+    padding: 15px 0;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #676565;
+    margin: 15px 0 0;
+  }
+
+  &__wrapButton {
+    width: 250px;
+  }
+}

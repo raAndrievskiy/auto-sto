@@ -1,0 +1,13 @@
+
+.location {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .location {
+    display: none;
+  }
+}

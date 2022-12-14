@@ -1,0 +1,95 @@
+@import url(./fonts.scss);
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.button_blue {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  background: #2998ff;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.button_blue:hover {
+  background: #0e4194;
+}
+
+.button_white {
+  padding: 20px 25px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  font-size: 24px;
+  display: block;
+  line-height: 38px;
+  color: #393939;
+  cursor: pointer;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  color: #3f3f3f;
+  margin: 0;
+}
+
+.titleH2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  color: #2f2f2f;
+  margin: 0;
+}
+
+.titleH3 {
+}
+
+.titleH4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  color: #3f3f3f;
+  margin: 0;
+}
+
+@media screen and (max-width: 1400px) {
+  .button_blue {
+    font-size: 17px;
+    padding: 10px 20px;
+  }
+
+  .button_white {
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .titleH2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

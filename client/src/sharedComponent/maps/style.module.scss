@@ -1,0 +1,45 @@
+.wrapMap {
+  margin: 18px 0 100px;
+
+  > div {
+    overflow: hidden;
+    border-radius: 30px;
+  }
+}
+
+.tooltip {
+  width: 256px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titleMarker {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.btnMarker {
+  width: 190px;
+  height: 42.32px;
+  background: #0e4194;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .wrapMap {
+    > div {
+      margin-top: 20px;
+    }
+  }
+}

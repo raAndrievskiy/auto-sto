@@ -1,0 +1,21 @@
+.socialItem {
+  display: flex;
+  align-items: center;
+}
+
+.socialLink {
+  width: 40px;
+  height: 40px;
+  background: #2998ff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms;
+  &:hover {
+    background: #0e4194;
+  }
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+}

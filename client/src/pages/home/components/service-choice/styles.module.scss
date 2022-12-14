@@ -1,0 +1,223 @@
+.serviceChoice {
+  margin: 135px 0 90px;
+  &__title {
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    color: #3f3f3f;
+    span {
+      color: #0e4194;
+    }
+  }
+
+  &__about {
+    display: flex;
+    justify-content: space-between;
+    &__img {
+      position: relative;
+      background: url(../../../../assets/images/service-choice-background.png)
+        no-repeat center;
+      width: 659px;
+      height: 620px;
+
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        background: #0e4194;
+        width: 110px;
+        height: 40px;
+        left: 86px;
+      }
+
+      &::before {
+        top: -40px;
+      }
+
+      &::after {
+        bottom: -40px;
+      }
+    }
+
+    &__text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 29px;
+      max-width: 680px;
+      .info {
+        display: flex;
+        flex-wrap: wrap;
+        .number {
+          margin-top: 55px;
+          width: 50%;
+          display: flex;
+          align-items: start;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 68px;
+          line-height: 60px;
+          color: #2998ff;
+
+          span {
+            font-size: 24px;
+            line-height: 31px;
+            display: flex;
+            font-weight: normal;
+            align-items: center;
+            color: #000000;
+            padding-left: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.serviceChoiceItem__wrap,
+.serviceQuality__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.serviceQuality__wrap {
+  padding: 50px 0;
+  background: #f9f9f9;
+}
+.serviceQuality {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3f3f3f;
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+.serviceChoiceItem,
+.serviceQualityItem {
+  width: 49%;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 30px 20px 40px;
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3f3f3f;
+    display: block;
+    margin-top: 15px;
+  }
+
+  &__description {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3f3f3f;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .serviceChoice {
+    &__title {
+      font-size: 32px;
+    }
+    &__about {
+      &__text {
+        margin-left: 15px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .serviceChoice {
+    margin: 45px 0 35px;
+
+    &__about {
+      flex-direction: column;
+
+      &__img {
+        background: url(../../../../assets/images/service-choice-mob-background.png)
+          no-repeat center;
+        width: 100%;
+        height: 460px;
+        margin-bottom: 70px;
+      }
+
+      &__text {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: none;
+        > span {
+          width: 100%;
+          max-width: 400px;
+          margin-right: 15px;
+        }
+        .info {
+          display: block;
+          .number {
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .serviceChoiceItem,
+  .serviceQuality__wrap,
+  .serviceChoiceItem__wrap {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .serviceChoice {
+    &__title {
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 40px;
+    }
+    &__about {
+      &__text {
+        > span {
+          display: none;
+        }
+        .info {
+          margin: 0 auto;
+
+          .number {
+            max-width: 360px;
+            &:nth-child(2) {
+              span {
+                padding-left: 55px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

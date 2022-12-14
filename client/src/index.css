@@ -1,0 +1,64 @@
+@import url(./styles/index.scss);
+
+body {
+    margin: 0;
+    font-family: Circe, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.gm-style div {
+    border: none !important;
+}
+
+.gm-style .gm-style-iw-t::after {
+    background: linear-gradient(
+            45deg,
+            rgba(14, 65, 148, 0.49) 50%,
+            rgba(255, 255, 255, 0) 51%,
+            rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.gm-style .gm-style-iw-c button[aria-label="Close"] {
+    display: none !important;
+}
+
+.gm-style .gm-style-iw-d {
+    overflow: visible !important;
+    min-height: 0;
+    outline: none !important;
+    border: none !important;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track,
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track-piece {
+    background-color: rgba(14, 65, 148, 0.49);
+    width: 0;
+    height: 0;
+}
+
+.gm-style .gm-style-iw-c {
+    /*padding-right: 10px !important;*/
+    /*padding-bottom: 0px !important;*/
+    max-width: 256px !important;
+    /*max-height: 326px !important;*/
+    padding: 0 !important;
+    min-width: 0px !important;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -100%);
+    background-color: rgba(14, 65, 148, 0.49);
+    border-radius: 8px;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
+    outline: none !important;
+    border: none !important;
+}

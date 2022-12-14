@@ -1,0 +1,82 @@
+.workStages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  &__wrap {
+    h1 {
+      margin-bottom: 48px;
+    }
+  }
+  &::before {
+    content: "";
+    background: url(../../../../assets/images/start-to-finish.png) no-repeat
+      center;
+    width: 52px;
+    height: 682px;
+    display: block;
+  }
+
+  &__item {
+    h3 {
+      margin: 0;
+      margin-bottom: 8px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+    }
+    span {
+      display: block;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    div {
+      &:not(:last-child) {
+        margin-bottom: 38px;
+      }
+    }
+  }
+  &__img {
+    position: relative;
+    background: url(../../../../assets/images/work-stages-background.png)
+      no-repeat center;
+    width: 500px;
+    height: 740px;
+    margin-left: 15px;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      background: #0e4194;
+      width: 110px;
+      height: 40px;
+      left: 86px;
+    }
+
+    &::before {
+      top: -32px;
+    }
+
+    &::after {
+      bottom: -39px;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .workStages {
+    &__img {
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .workStages__wrap {
+    display: none;
+  }
+}
